@@ -1,0 +1,11 @@
+
+#from dict,how can we print the key whose value is maximum
+
+from collections import Counter
+s='hello'
+d=dict(Counter(s))
+print(max(d,key=d.get))
+print(Counter(s))
+
+l
+Counter({'l': 2, 'h': 1, 'e': 1, 'o': 1})
