@@ -1,0 +1,14 @@
+#Day 4 Assignment:
+
+#Define a function which will take a number as argument and return its factorial.
+
+#Call the function to print factorial of any number(integer).
+def fact(n):  
+    return 1 if (n==1 or n==0) else n * fact(n - 1);  
+  
+num = 3 
+print("Factorial of",num,"is",)  
+fact(num)
+
+Factorial of 3 is
+6
